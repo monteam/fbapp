@@ -530,7 +530,8 @@ export default {
       }
     },
     loginfb () {
-      FB.login(function(response) {
+      FB.login(response => {
+        console.log(response)
         if(response.authResponse) {
           //if (response.perms)
                 // window.location.href = 'fbconnect.php';
@@ -542,6 +543,7 @@ export default {
                 this.access_token = response.authResponse.accessToken
                 this.signedin = true
             })
+            
         } else {
           // user is not logged in
         }

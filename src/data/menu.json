@@ -1,9 +1,9 @@
 {
   "data": [ 
         {
-          "title": "StaterKit", "icon": "home", "type": "sub", "badgeType": "primary", "badgeValue": "6", "active": false, "children": [
-            { "path": "/dashboard/default", "title": "Page1", "type": "link" },          
-            { "path": "/dashboard/ecommerce", "title": "Page2", "type": "link" }
+          "title": "Manage Ads", "icon": "home", "type": "sub", "badgeType": "primary", "badgeValue": "6", "active": false, "children": [
+            { "path": "/dashboard/default", "title": "Ad account list", "type": "link" },          
+            { "path": "/dashboard/ecommerce", "title": "Campaign list", "type": "link" }
           ]
         }
       ]

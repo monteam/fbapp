@@ -3,6 +3,7 @@ module.exports = {
     publicPath: "/",
     devServer: { 
         https: true,
-        disableHostCheck: true
+        disableHostCheck: true,
+        // port: 80
     }
 };
