@@ -547,7 +547,7 @@ export default {
         } else {
           // user is not logged in
         }
-      }, {scope:'ads_management'});
+      }, {scope:'ads_management,business_management'});
     },
     customizeMixLayout(val) {
       this.mixLayout = val;

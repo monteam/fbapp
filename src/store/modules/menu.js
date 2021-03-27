@@ -17,6 +17,7 @@ const mutations = {
     state.togglesidebar = !state.togglesidebar
   },
   resizetoggle: (state) => {
+    return state.togglesidebar = false
     if (window.innerWidth < 1199) {
       state.togglesidebar = false
     } else {
